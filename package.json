@@ -8,7 +8,9 @@
     "build": "vite build",
     "preview": "vite preview",
     "lint": "eslint . --cache",
-    "lint:fix": "bun run lint --fix"
+    "lint:fix": "bun run lint --fix",
+    "format": "prettier --check .",
+    "format:fix": "bun run format --write"
   },
   "dependencies": {
     "vue": "^3.5.22"

@@ -1,5 +1,5 @@
 import antfu from '@antfu/eslint-config'
-
+import eslintConfigPrettier from '@vue/eslint-config-prettier'
 /** @type {import('eslint').Linter.Config[]} */
 export default antfu(
   { rules: { 'node/prefer-global/process': 'off' } }, // Suppress warning about process being undefined
@@ -25,4 +25,6 @@ export default antfu(
       ],
     },
   },
+  // Prettier
+  eslintConfigPrettier,
 )
