@@ -10,7 +10,9 @@
     "lint": "eslint . --cache",
     "lint:fix": "bun run lint --fix",
     "format": "prettier --check .",
-    "format:fix": "bun run format --write"
+    "format:fix": "bun run format --write",
+    "test": "vitest",
+    "coverage": "vitest run --coverage"
   },
   "dependencies": {
     "vue": "^3.5.22"
@@ -19,13 +21,15 @@
     "@antfu/eslint-config": "^5.4.1",
     "@eslint/js": "^9.37.0",
     "@vitejs/plugin-vue": "^6.0.1",
+    "@vitest/coverage-v8": "3.2.4",
     "@vue/eslint-config-prettier": "^10.2.0",
     "eslint": "^9.37.0",
     "eslint-plugin-vue": "^10.5.0",
     "globals": "^16.4.0",
     "prettier": "^3.6.2",
     "prettier-eslint": "^16.4.2",
-    "vite": "npm:rolldown-vite@7.1.14"
+    "vite": "npm:rolldown-vite@7.1.14",
+    "vitest": "^3.2.4"
   },
   "overrides": {
     "vite": "npm:rolldown-vite@7.1.14"
