@@ -87,3 +87,32 @@ padding-block: 2rem;
 .text-xl{
     font-size: 2rem;
 }
+
+/* borders */
+.border-primary{
+    border: 1px solid var(--color-primary);
+}
+.border-secondary{
+    border: 1px solid var(--color-secondary);
+}
+
+.rounded-sm{
+    border-radius: 0.25rem;
+}
+.rounded-md{
+    border-radius: 0.5rem;
+}
+.rounded-lg{
+    border-radius: 1rem;
+}
+.border-full {
+    border-radius: 9999px;
+}
+
+/* utilities */
+.hover-bg-primary:hover {
+    background: var(--color-primary);
+}
+.hover-bg-secondary:hover {
+    background: var(--color-secondary);
+}
