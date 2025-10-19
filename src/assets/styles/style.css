@@ -1,0 +1,89 @@
+:root {
+    --color-primary: #1b1b1b;
+    --color-secondary: #2b2b2b;
+}
+
+/* reset */
+
+*,*:before,*:after{
+padding:0;
+margin:0;
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+}
+input,textarea{
+
+outline:none
+
+}
+
+
+button,input[type="submit"]{
+
+outline:none;
+border:none;
+
+}
+
+button:hover,input[type="submit"]{
+
+cursor:pointer;
+transform: translateY(-0.25em);
+
+}
+
+li,a{
+text-decoration:none;
+}
+
+/* colors*/
+.bg-primary{
+    background-color: var(--color-primary);
+}
+.bg-secondary{
+    background-color: var(--color-secondary);
+}
+
+.text-primary{
+    color: var(--color-primary);
+}
+.text-secondary{
+    color: var(--color-secondary);
+}
+
+/* spacing */
+.px-sm{
+padding-inline: 0.5rem;
+}
+.py-sm{
+padding-block: 0.5rem;
+}
+.px-md{
+padding-inline: 1.5rem;
+}
+
+.py-md{
+padding-block: 1.5rem;
+}
+
+.px-lg{
+padding-inline: 2rem;
+}
+.py-lg{
+padding-block: 2rem;
+}
+
+/* typography*/
+.text-sm{
+    font-size: 0.875rem;
+}
+.text-md{
+    font-size: 1rem;
+}
+.text-lg{
+    font-size: 1.5rem;
+}
+.text-xl{
+    font-size: 2rem;
+}
