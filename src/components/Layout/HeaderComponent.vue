@@ -36,6 +36,7 @@
 
 <style scoped>
   .header {
+    grid-column: 1 / -1;
     display: flex;
     align-items: center;
     gap: 4px;
