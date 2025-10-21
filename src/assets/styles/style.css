@@ -1,89 +1,150 @@
 :root {
-    --color-primary: #1b1b1b;
-    --color-secondary: #2b2b2b;
+  --color-primary: #1b1b1b;
+  --color-secondary: #2b2b2b;
+  --color-tertiary: #3b3b3b;
+  --color-gray: #cacaca;
+  --color-white: #ffffff;
 }
 
 /* reset */
 
-*,*:before,*:after{
-padding:0;
-margin:0;
--webkit-box-sizing: border-box;
--moz-box-sizing: border-box;
-box-sizing: border-box;
+*,
+*:before,
+*:after {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
-input,textarea{
-
-outline:none
-
-}
-
-
-button,input[type="submit"]{
-
-outline:none;
-border:none;
-
+input,
+textarea {
+  outline: none;
 }
 
-button:hover,input[type="submit"]{
-
-cursor:pointer;
-transform: translateY(-0.25em);
-
+button,
+input[type='submit'] {
+  outline: none;
+  border: none;
 }
 
-li,a{
-text-decoration:none;
+button:hover,
+input[type='submit'] {
+  cursor: pointer;
+}
+
+li,
+a {
+  text-decoration: none;
 }
 
 /* colors*/
-.bg-primary{
-    background-color: var(--color-primary);
+.bg-primary {
+  background-color: var(--color-primary);
 }
-.bg-secondary{
-    background-color: var(--color-secondary);
+.bg-secondary {
+  background-color: var(--color-secondary);
 }
-
-.text-primary{
-    color: var(--color-primary);
+.bg-gray {
+  background-color: var(--color-gray);
 }
-.text-secondary{
-    color: var(--color-secondary);
+.bg-white {
+  background-color: var(--color-white);
+}
+.bg-tertiary {
+  background-color: var(--color-tertiary);
+}
+.text-primary {
+  color: var(--color-primary);
+}
+.text-secondary {
+  color: var(--color-secondary);
+}
+.text-gray {
+  color: var(--color-gray);
+}
+.text-tertiary {
+  color: var(--color-tertiary);
+}
+.text-white {
+  color: var(--color-white);
 }
 
 /* spacing */
-.px-sm{
-padding-inline: 0.5rem;
+.px-sm {
+  padding-inline: 0.5rem;
 }
-.py-sm{
-padding-block: 0.5rem;
+.py-sm {
+  padding-block: 0.5rem;
 }
-.px-md{
-padding-inline: 1.5rem;
-}
-
-.py-md{
-padding-block: 1.5rem;
+.px-md {
+  padding-inline: 1.5rem;
 }
 
-.px-lg{
-padding-inline: 2rem;
+.py-md {
+  padding-block: 1.5rem;
 }
-.py-lg{
-padding-block: 2rem;
+
+.px-lg {
+  padding-inline: 2rem;
+}
+.py-lg {
+  padding-block: 2rem;
 }
 
 /* typography*/
-.text-sm{
-    font-size: 0.875rem;
+.text-sm {
+  font-size: 0.875rem;
 }
-.text-md{
-    font-size: 1rem;
+.text-md {
+  font-size: 1rem;
 }
-.text-lg{
-    font-size: 1.5rem;
+.text-lg {
+  font-size: 1.5rem;
 }
-.text-xl{
-    font-size: 2rem;
+.text-xl {
+  font-size: 2rem;
+}
+
+/* borders */
+.border-primary {
+  border: 1px solid var(--color-primary);
+}
+.border-secondary {
+  border: 1px solid var(--color-secondary);
+}
+
+.rounded-sm {
+  border-radius: 0.25rem;
+}
+.rounded-md {
+  border-radius: 0.5rem;
+}
+.rounded-lg {
+  border-radius: 1rem;
+}
+.border-full {
+  border-radius: 9999px;
+}
+
+/* utilities */
+.hover-bg-primary:hover {
+  background: var(--color-primary);
+}
+.hover-bg-secondary:hover {
+  background: var(--color-secondary);
+}
+.hover-bg-gray:hover {
+  background: var(--color-gray);
+}
+.hover-bg-white:hover {
+  background: var(--color-white);
+}
+.hover-bg-tertiary:hover {
+  background: var(--color-tertiary);
+}
+
+/* transitions */
+.transition-all {
+  transition: all 0.3s ease;
 }
