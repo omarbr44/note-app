@@ -11,7 +11,7 @@
 </script>
 
 <template>
-  <div class="sidebar-sub-files-structure-container px-md">
+  <div class="sidebar-sub-files-structure-container pl-md">
     <template v-if="item.items.length > 0">
       <SidebarFolderComponent :item />
     </template>

@@ -8,7 +8,7 @@
 </script>
 
 <template>
-  <div class="sidebar-file-container">
+  <div class="sidebar-file-container px-sm py-xs rounded-sm hover-bg-tertiary">
     <span class="sidebar-folder-name text-gray text-sm">{{ item.label }}</span>
   </div>
 </template>

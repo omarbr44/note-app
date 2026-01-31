@@ -86,6 +86,6 @@
   .sidebar-files-container {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 2px;
   }
 </style>
