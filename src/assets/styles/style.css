@@ -153,6 +153,38 @@ a {
   padding-inline-end: 2.5rem;
 }
 
+.ml-sm {
+  margin-inline-start: 0.5rem;
+}
+
+.mr-sm {
+  margin-inline-end: 0.5rem;
+}
+
+.ml-md {
+  margin-inline-start: 1rem;
+}
+
+.mr-md {
+  margin-inline-end: 1rem;
+}
+
+.ml-lg {
+  margin-inline-start: 2rem;
+}
+
+.mr-lg {
+  margin-inline-end: 2rem;
+}
+
+.ml-xl {
+  margin-inline-start: 2.5rem;
+}
+
+.mr-xl {
+  margin-inline-end: 2.5rem;
+}
+
 /* typography*/
 .text-sm {
   font-size: 0.875rem;
@@ -214,6 +246,26 @@ a {
 
 .hover-bg-tertiary:hover {
   background: var(--color-tertiary);
+}
+
+.hover-text-white:hover {
+  color: var(--color-white);
+}
+
+.hover-text-gray:hover {
+  color: var(--color-gray);
+}
+
+.hover-text-tertiary:hover {
+  color: var(--color-tertiary);
+}
+
+.hover-text-primary:hover {
+  color: var(--color-primary);
+}
+
+.hover-text-secondary:hover {
+  color: var(--color-secondary);
 }
 
 /* transitions */

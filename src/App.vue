@@ -1,6 +1,7 @@
 <script setup>
   import { Pane, Splitpanes } from 'splitpanes'
   import HeaderComponent from './components/Layout/HeaderComponent.vue'
+  import MainComponent from './components/Layout/Main/MainComponent.vue'
   import SidebarComponent from './components/Layout/Sidebar/SidebarComponent.vue'
   import 'splitpanes/dist/splitpanes.css'
 </script>
@@ -14,7 +15,7 @@
           <SidebarComponent style="height: 100%" />
         </Pane>
         <Pane>
-          <main class="bg-tertiary" style="height: 100%"></main>
+          <MainComponent />
         </Pane>
       </Splitpanes>
     </div>

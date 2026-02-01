@@ -14,7 +14,10 @@
 </script>
 
 <template>
-  <div class="sidebar-folder-container px-sm py-xs rounded-sm hover-bg-tertiary" @click="isOpen = !isOpen">
+  <div
+    class="sidebar-folder-container px-sm py-xs rounded-sm hover-bg-tertiary"
+    @click="isOpen = !isOpen"
+  >
     <ArrowRight
       class="sidebar-folder-arrow text-gray transition-all"
       :class="isOpen ? 'rotate-90' : ''"
