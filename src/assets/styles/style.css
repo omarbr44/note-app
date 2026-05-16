@@ -3,18 +3,16 @@
   --color-secondary: #2b2b2b;
   --color-tertiary: #3b3b3b;
   --color-gray: #cacaca;
-  --color-white: #ffffff;
+  --color-white: #fff;
 }
 
 /* reset */
 
 *,
-*:before,
-*:after {
+*::before,
+*::after {
   padding: 0;
   margin: 0;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 
@@ -39,7 +37,7 @@ a {
   text-decoration: none;
 }
 
-/* colors*/
+/* colors */
 .bg-primary {
   background-color: var(--color-primary);
 }
@@ -95,14 +93,6 @@ a {
 
 .py-xs {
   padding-block: 0.25rem;
-}
-
-.px-sm {
-  padding-inline: 0.5rem;
-}
-
-.py-sm {
-  padding-block: 0.5rem;
 }
 
 .px-md {
@@ -185,7 +175,7 @@ a {
   margin-inline-end: 2.5rem;
 }
 
-/* typography*/
+/* typography */
 .text-sm {
   font-size: 0.875rem;
 }
