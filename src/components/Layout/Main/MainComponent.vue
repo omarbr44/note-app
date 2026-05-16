@@ -1,5 +1,5 @@
 <script setup>
-  import MainBodyComponent from './MainBodyComponent.vue'
+  import MainBodyComponent from './MainBody/MainBodyComponent.vue'
   import MainHeaderComponent from './MainHeaderComponent.vue'
 </script>
 

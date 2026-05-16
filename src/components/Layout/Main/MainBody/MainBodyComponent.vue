@@ -1,6 +1,10 @@
+<script setup>
+  import EditorComponent from './EditorComponent.vue'
+</script>
+
 <template>
   <div class="main-body bg-secondary py-sm px-md">
-    <h1>Main Body</h1>
+    <EditorComponent />
   </div>
 </template>
 
