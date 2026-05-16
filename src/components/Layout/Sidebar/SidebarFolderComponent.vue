@@ -14,7 +14,10 @@
 </script>
 
 <template>
-  <div class="sidebar-folder-container" @click="isOpen = !isOpen">
+  <div
+    class="sidebar-folder-container px-sm py-xs rounded-sm hover-bg-tertiary"
+    @click="isOpen = !isOpen"
+  >
     <ArrowRight
       class="sidebar-folder-arrow text-gray transition-all"
       :class="isOpen ? 'rotate-90' : ''"
@@ -22,7 +25,8 @@
     <span class="sidebar-folder-name text-gray text-sm">{{ item.label }}</span>
   </div>
   <Transition name="collapse">
-    <div v-show="isOpen" class="overflow-hidden">
+    <div v-show="isOpen" class="overflow-hidden sidebar-sub-files-container">
+      <div class="left-line"></div>
       <SidebarSubFilesStrucureComponent
         v-for="file in item.items"
         :key="file.label"
@@ -62,5 +66,15 @@
   .collapse-enter-to,
   .collapse-leave-from {
     max-height: 500px; /* pick a safe upper bound */
+  }
+  .left-line {
+    position: absolute;
+    left: 12px;
+    width: 1px;
+    height: 100%;
+    background-color: var(--color-tertiary);
+  }
+  .sidebar-sub-files-container {
+    position: relative;
   }
 </style>
