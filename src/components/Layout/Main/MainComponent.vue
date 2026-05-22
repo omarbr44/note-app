@@ -1,4 +1,4 @@
-<script setup>
+<script setup lang="ts">
   import MainBodyComponent from './MainBody/MainBodyComponent.vue'
   import MainHeaderComponent from './MainHeaderComponent.vue'
 </script>

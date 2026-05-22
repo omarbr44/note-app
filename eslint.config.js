@@ -10,11 +10,6 @@ export default antfu(
   {
     rules: {
       'no-console': ['error', { allow: ['debug', 'warn', 'error'] }],
-      'func-style': [
-        'error',
-        'declaration',
-        { overrides: { namedExports: 'ignore' } },
-      ],
     },
   },
   // Vue

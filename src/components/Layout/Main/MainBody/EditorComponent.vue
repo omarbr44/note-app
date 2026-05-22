@@ -1,4 +1,4 @@
-<script setup>
+<script setup lang="ts">
   import StarterKit from '@tiptap/starter-kit'
   import { EditorContent, useEditor } from '@tiptap/vue-3'
 
@@ -9,7 +9,7 @@
 </script>
 
 <template>
-  <EditorContent :editor />
+  <EditorContent v-if="editor" :editor />
 </template>
 
 <style>

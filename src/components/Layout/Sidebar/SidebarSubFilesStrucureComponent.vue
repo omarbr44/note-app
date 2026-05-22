@@ -1,4 +1,4 @@
-<script setup>
+<script setup lang="ts">
   import SidebarFileComponent from './SidebarFileComponent.vue'
   import SidebarFolderComponent from './SidebarFolderComponent.vue'
 

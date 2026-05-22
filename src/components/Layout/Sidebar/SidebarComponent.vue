@@ -1,4 +1,4 @@
-<script setup>
+<script setup lang="ts">
   import { FileEdit, FolderInput } from 'lucide-vue-next'
   import { ref } from 'vue'
   import SidebarFilesStrucureComponent from './SidebarFilesStrucureComponent.vue'

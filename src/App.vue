@@ -1,4 +1,4 @@
-<script setup>
+<script setup lang="ts">
   import { Pane, Splitpanes } from 'splitpanes'
   import HeaderComponent from './components/Layout/HeaderComponent.vue'
   import MainComponent from './components/Layout/Main/MainComponent.vue'

@@ -1,4 +1,4 @@
-<script setup>
+<script setup lang="ts">
   import {
     ArrowLeft,
     ArrowRight,
@@ -13,11 +13,11 @@
       <div class="main-header-arrow-container">
         <ArrowLeft
           class="text-gray text-sm hover-text-white hover-bg-tertiary rounded-sm transition-all px-xs py-xs"
-          size="24"
+          :size="24"
         />
         <ArrowRight
           class="text-gray text-sm hover-text-white hover-bg-tertiary rounded-sm transition-all px-xs py-xs"
-          size="24"
+          :size="24"
         />
       </div>
       <div class="main-header-navigation-container">
@@ -48,11 +48,11 @@
       <div class="main-header-actions-container">
         <Bookmark
           class="text-gray text-sm hover-text-white hover-bg-tertiary rounded-sm transition-all px-xs py-xs"
-          size="24"
+          :size="24"
         />
         <EllipsisVertical
           class="text-gray text-sm hover-text-white hover-bg-tertiary rounded-sm transition-all px-xs py-xs"
-          size="24"
+          :size="24"
         />
       </div>
     </div>

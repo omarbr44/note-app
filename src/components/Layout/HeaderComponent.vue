@@ -1,4 +1,4 @@
-<script setup>
+<script setup lang="ts">
   import { Folder, Search } from 'lucide-vue-next'
   import { ref } from 'vue'
 
@@ -15,9 +15,32 @@
 
   const activeTab = ref('Folder')
 
-  function changeActiveTab(tabName) {
+  function changeActiveTab(tabName: string) {
     activeTab.value = tabName
   }
+
+  // type HandleNumbers = (a: number, b?: number | string) => number
+
+  // const add: HandleNumbers = (a, b = 5) => {
+  //   if(typeof b === 'number')
+  //     return  a + (b || 0)
+  //   return 0
+  // }
+  // const sub: HandleNumbers = (a, b) => a - (b || 0)
+
+  // add(2, 3)
+  // sub(2, 3)
+
+
+
+  // type Filter = 'date' | 'name' | 'price'
+  
+  // const filters: Filter[] = ['date', 'name', 'price']
+  // function applyFilter(filter: Filter) {
+  //   return filter
+  // }
+
+  // applyFilter('date')
 </script>
 
 <template>

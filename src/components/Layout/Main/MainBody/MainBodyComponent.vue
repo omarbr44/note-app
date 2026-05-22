@@ -1,4 +1,4 @@
-<script setup>
+<script setup lang="ts">
   import EditorComponent from './EditorComponent.vue'
 </script>
 
